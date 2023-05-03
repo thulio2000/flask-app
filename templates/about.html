@@ -7,15 +7,15 @@
 </head>
 
 <body>
-    {% extends "template.html" %}
-    {% block content %}
+    {% extends "template.html" %} <!--tells flask to inherit from template.html-->
+    {% block content %} <!--defines block of content within the template-->
 
     <h1>About Flask</h1>
     <p>Flask is a micro web framework written in Python.</p>
     <p>Applications that use the Flask framework include Pinterest, Linkedin, and the community web page for Flask
         itself.</p>
 
-    {% endblock %}
+    {% endblock %} 
 </body>
 
 </html>

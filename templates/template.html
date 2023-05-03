@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Flask Parent Template</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+    <!--links the css file in the static template-->
 </head>
 
 <body>
@@ -14,8 +15,8 @@
             <strong>
                 <nav>
                     <ul class="menu">
-                        <li><a href="{{ url_for('home') }}">Home</a></li>
-                        <li><a href="{{ url_for('about') }}">About</a></li>
+                        <li><a href="{{ url_for('home') }}">Home</a></li> <!--links the home route-->
+                        <li><a href="{{ url_for('about') }}">About</a></li> <!--links the about route-->
                     </ul>
                 </nav>
             </strong>
